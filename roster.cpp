@@ -3,11 +3,11 @@
 #include "networkStudent.h"
 #include "securityStudent.h"
 #include "softwareStudent.h"
-#include <string.h>
+#include <string>
 #include <iostream>
 #include <sstream>
 #include <vector>
-#include <cstring>
+
 using namespace std;
 
 string studentData[] =

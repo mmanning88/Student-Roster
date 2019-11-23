@@ -1,6 +1,5 @@
 #include "student.h"
 #include <iostream>
-#include<iomanip>
 using namespace std;
 
 Student::Student() {
@@ -102,7 +101,7 @@ void Student::print() {
 	cout << left << getStudentID() << "\t";
 	cout << left << "First Name: " << getFirstName() << "\t";
 	cout << left << "Last Name: " << getLastName() << "\t";
-	cout << left << setw(6) << "Age: " << to_string(getAge()) << "\t";
+	cout << left << "Age: " << to_string(getAge()) << "\t";
 	cout << left << "daysInCourse: " << getDaysToCourseCompletion()[0] << "," << getDaysToCourseCompletion()[1] << "," << getDaysToCourseCompletion()[2] << "\t";
 	cout << left << degree << "\n";
 }
